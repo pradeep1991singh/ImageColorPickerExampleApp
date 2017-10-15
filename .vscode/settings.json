@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 4,
+    "editor.wrappingColumn": 100,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/*.map": true,
+      "**/*.js": {
+        "when": "$(basename).ts"
+      },
+      "markdown.styles": [
+        "/home/pradeep/github/markdown/github-markdown.css"
+      ]
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "vsicons.projectDetection.disableDetect": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "workbench.iconTheme": "file-icons",
+    "editor.formatOnSave": true,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "files.insertFinalNewline": true
+  }
+  
