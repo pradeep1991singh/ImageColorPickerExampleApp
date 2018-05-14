@@ -1,4 +1,6 @@
 rootProject.name = 'ImageColorPickerExample'
+include ':image-color-picker'
+project(':image-color-picker').projectDir = new File(rootProject.projectDir, '../node_modules/image-color-picker/android')
 include ':react-native-fetch-blob'
 project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
 

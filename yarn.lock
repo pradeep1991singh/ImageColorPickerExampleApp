@@ -2105,6 +2105,10 @@ iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
+image-color-picker@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/image-color-picker/-/image-color-picker-1.0.0.tgz#df2d42286115a6da260b710558d643447fc25299"
+
 image-size@^0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.6.1.tgz#98122a562d59dcc097ef1b2c8191866eb8f5d663"
@@ -3694,10 +3698,11 @@ react-native-fetch-blob@^0.10.8:
     base-64 "0.1.0"
     glob "7.0.6"
 
-react-native-image-color-picker@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-native-image-color-picker/-/react-native-image-color-picker-1.0.2.tgz#593444add3947d95eb766a045d061585e0cdf3ac"
+react-native-image-color-picker@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-image-color-picker/-/react-native-image-color-picker-1.0.4.tgz#a1efc1c5c34da6ebe792a9e3ad37ccd5b51828e5"
   dependencies:
+    image-color-picker "^1.0.0"
     react-native-fetch-blob "^0.10.8"
 
 react-native@0.49.3:

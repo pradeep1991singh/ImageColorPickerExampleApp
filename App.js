@@ -16,8 +16,8 @@ export default class App extends Component {
   };
 
   pickerCallback = message => {
-    if (message && message.nativeEvent && message.nativeEvent.data) {
-      let messageData = JSON.parse(message.nativeEvent.data);
+    if (message && (message.nativeEvent && message.nativeEvent.data || message.promise)) {
+      let messageData = JSON.parse(message.nativeEvent && message.nativeEvent.data || message.promise);
       if (messageData.message === 'imageColorPicker' && messageData.payload) {
         const palettes = messageData.payload;
         this.setState({ palettes, loadingPalettes: false });
